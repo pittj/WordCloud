@@ -1,0 +1,44 @@
+npm uninstall webpack -g 
+npm uninstall -g webpack-dev-server 
+npm install webpack@3.8.0 --save-dev  
+npm install webpack-dev-server@2.9.7 --save-dev
+
+출처: https://aspdotnet.tistory.com/2192 [심재운 블로그]
+
+
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+
+npm uninstall webpack -g 
+npm uninstall -g webpack-dev-server 
+npm install webpack@5.4.0 --save-dev  
+npm install webpack-dev-server@3.11.0 --save-dev
+
+--해결됨
+npm uninstall -g webpack   
+npm uninstall -g webpack-cli   
+npm uninstall -g webpack-dev-server 
+npm install webpack@4.32.2 --save-dev  
+npm install webpack-cli@3.3.2 --save-dev  
+npm install webpack-dev-server@3.5.1 --save-dev
+--https://medium.com/@cyishere/error-cannot-find-module-webpack-cli-bin-config-yargs-6d704533062a
+
+
+
+
+3.  해결
+ 
+
+현재 버전의 webpack 및 webpack-cli를 제거하고 webpack-dev-server 버전에 맞춰서 재설치합니다.
+
+ 
+
+> npm uninstall -D webpack webpack-cli
+
+> npm install -D webpack webpack-cli
+
+
+
+출처: https://smoh.tistory.com/356 [Simple is Beautiful.]
+

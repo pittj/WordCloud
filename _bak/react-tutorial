@@ -1,0 +1,16 @@
+npm uninstall webpack -g 
+npm uninstall -g webpack-dev-server 
+npm install webpack@3.8.0 --save-dev  
+npm install webpack-dev-server@2.9.7 --save-dev
+
+출처: https://aspdotnet.tistory.com/2192 [심재운 블로그]
+
+
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+
+npm uninstall webpack -g npm 
+npm uninstall -g webpack-dev-server 
+npm install webpack@5.4.0 --save-dev  
+npm install webpack-dev-server@3.11.0 --save-dev
